@@ -12,6 +12,7 @@
   text-align: center;
 
   /* espaçamento interno */
-  padding-block: 1.5rem;
+  /* padding-block: 1.5rem; */
+  padding-bottom: 1.5rem;
 
 }

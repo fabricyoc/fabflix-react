@@ -1,0 +1,20 @@
+.watch {
+  width: 100%;
+  /* calcula altura mínima com base no viewport - cabeçalho, rodapé e paddings */
+  min-height: calc(100vh - (60px + 84px));
+  margin-top: 60px;
+
+  /* alinha o vídeo ao centro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch iframe{
+  border-radius: 10px;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px #ef464f;
+}
+.watch iframe:hover{
+  transform: scale(1.03);
+}

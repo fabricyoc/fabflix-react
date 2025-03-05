@@ -1,0 +1,35 @@
+.header{
+  background-color: #132020;
+  border-bottom: 3px solid #ef464f;
+  color: white;
+  display: flex;
+  /* cabeçalho sempre visível */
+  position: fixed;
+  /* garante que o cabeçalho sempre ficará no topo */
+  top: 0;
+  height: 60px;
+  width: 100%;
+  /* alinhar horizontalmente com espaços semelhantes */
+  justify-content: space-around;
+  /* alinhar verticalmente, precisa do display flex */
+  align-items: center;
+}
+
+.header span{
+  color: #ef464f;
+  text-shadow: 1px 1px 2px #ef464f;
+  font-size: 2rem;
+}
+
+.header a{
+  text-decoration: none;
+  color: white;
+  padding-inline: 1rem;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+
+.header a:hover{
+  border-bottom: 2px solid white;
+  text-shadow: 1px 1px 3px #ef464f;
+}

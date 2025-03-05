@@ -29,7 +29,7 @@
   transition: 0.5s;
 }
 
-.header a:hover{
+.header nav a:hover{
   border-bottom: 2px solid white;
   text-shadow: 1px 1px 3px #ef464f;
 }

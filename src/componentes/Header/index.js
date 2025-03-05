@@ -4,7 +4,7 @@ import styles from './Header.module.css';
 function Header() {
   return (
     <header className={styles.header}>
-      <Link>
+      <Link to="/">
         <span>FabFlix</span>
       </Link>
       <nav>

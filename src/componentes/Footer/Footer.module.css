@@ -12,13 +12,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   /* estilo tipografia */
   font-weight: 500;
 
   /* posicionamento do rodapé */
-  bottom: 0;
-  position: absolute;
+  /* bottom: 0; */
+  /* position: absolute; */
 }
 
 .logo{

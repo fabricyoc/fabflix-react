@@ -1,0 +1,17 @@
+.container{
+  /* dimensões */
+  width: 100%;
+  /* 100vh do viewport - altura do cabeçalho, banner e rodapé {{Para a HOME funciona}} */
+  min-height: calc(100vh - (60px + 347px + 60px));
+
+  /* cores */
+  background-color: gray;
+  color: white;
+
+  /* alinhamento */
+  text-align: center;
+
+  /* espaçamento interno */
+  padding-block: 1.5rem;
+
+}

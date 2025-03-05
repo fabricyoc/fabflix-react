@@ -1,0 +1,28 @@
+.footer {
+  /* cores */
+  background-color: #132020;
+  color: white;
+  border-top: 3px solid #ef464f;
+  
+  /* dimensões */
+  height: 60px;
+  width: 100%;
+
+  /* alinhamentos */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* estilo tipografia */
+  font-weight: 500;
+
+  /* posicionamento do rodapé */
+  bottom: 0;
+  position: absolute;
+}
+
+.logo{
+  color: #ef464f;
+  text-shadow: 1px 1px 2px #ef464f;
+  font-size: 1.3rem;
+}

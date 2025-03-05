@@ -1,3 +1,4 @@
+import Footer from "./componentes/Footer";
 import Header from "./componentes/Header";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <>
       <Header />
       <h1>Olá mundo!</h1>
+      <Footer />
     </>
   );
 }

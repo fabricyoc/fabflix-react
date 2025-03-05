@@ -1,0 +1,14 @@
+.banner {
+  /* dimensões */
+  height: 347px;
+  width: 100%;
+
+  /* espaçamento do cabeçalho */
+  margin-top: 60px;
+
+  /* configurações da imagem */
+  /* background-image: url('/public/imagens/banner-home.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

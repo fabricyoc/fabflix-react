@@ -11,7 +11,7 @@ const categories = [...new Set(videos.map(video => video.categoria))];
 
 // filtrar videos de categoria X
 
-function filterCategory(id){
+function filterCategory(id) {
   return videos.filter(
     video => video.categoria == categories[id]
   );
@@ -24,13 +24,18 @@ function App() {
       <Header />
       <Banner imagem="home" />
       <Container>
-        <Category category={categories[0]}>
-          {
-            filterCategory(0).map(
-              video => <Card id={video.id} key={video.id} /> 
-            )
-          }
-        </Category>
+        {
+          categories.map(
+            (cat, index) =>
+              <Category category={cat} key={cat}>
+                {
+                  filterCategory(index).map(
+                    video => <Card id={video.id} key={video.id} />
+                  )
+                }
+              </Category>
+          )
+        }
       </Container>
       <Footer />
     </>

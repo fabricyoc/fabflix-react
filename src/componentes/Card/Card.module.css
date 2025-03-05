@@ -1,0 +1,15 @@
+.card {
+  /* display: flex; */
+}
+
+.card img{
+  border-radius: 10px;
+  width: 225px;
+  transition: 0.5s;
+}
+
+.card img:hover{
+  /* Aumenta em 2% */
+  transform: scale(1.02); 
+  box-shadow: 0px 0px 10px #ef464f; 
+}

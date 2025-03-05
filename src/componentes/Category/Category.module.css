@@ -1,0 +1,17 @@
+/* Quem me garante isto é o próprio Container */
+.category {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.category div {
+  display: flex;
+  flex-wrap: wrap;
+  /* espaçamento entre itens */
+  gap: 6px;
+  justify-content: center;
+}
+
+.category h2{
+  padding-block: 1.5rem;
+}

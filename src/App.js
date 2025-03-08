@@ -1,9 +1,12 @@
-import Watch from "./pages/Watch";
+import Color from "./componentes/Color";
 import AppRoutes from "./routes";
 
 function App() {
   return (
-    <AppRoutes />
+    <div>
+      <AppRoutes />
+      <Color />
+    </div>
   );
 }
 

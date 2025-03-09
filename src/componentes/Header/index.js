@@ -12,6 +12,7 @@ function Header() {
         {/* <a href='#'>Assistir</a> */}
         <Link to="/">Home</Link>
         <Link to="/watch">Assistir</Link>
+        <Link to="/search">Pesquisar</Link>
       </nav>
     </header>
   );

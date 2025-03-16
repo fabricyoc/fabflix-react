@@ -1,8 +1,9 @@
 
 .videos {
   margin-top: 1rem;
-  display: flex;
+  display: flex; 
   flex-wrap: wrap;
   justify-content: center;
   gap: 5px;
 }
+

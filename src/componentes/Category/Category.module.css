@@ -1,17 +1,25 @@
 /* Quem me garante isto é o próprio Container */
 .category {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+
+  min-width: 90%;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .category div {
-  display: flex;
-  flex-wrap: wrap;
   /* espaçamento entre itens */
   gap: 6px;
-  justify-content: center;
+  /* justify-content: center; */
+  align-items: center;
+
+  /* dimensões */
+  width: 100%;
+  height: 150px;
+
 }
 
-.category h2{
+.category h2 {
   padding-block: 1.5rem;
 }

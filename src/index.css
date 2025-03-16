@@ -1,8 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -23,3 +24,23 @@ code {
   gap: 5px;
   justify-content: center;
 } */
+
+/* scroll */
+
+body::-webkit-scrollbar {
+  /* largura do scroll */
+  width: 12px;
+  /* cor de fundo do scroll */
+  /* background-color: #222; */
+}
+
+body::-webkit-scrollbar-track {
+  /* cor de fundo do scroll */
+  background: #222;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #b71c1c;
+  border-radius: 20px;
+  border: 3px solid #222;
+}

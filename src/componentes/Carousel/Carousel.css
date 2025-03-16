@@ -1,0 +1,30 @@
+.slick-prev:before,
+.slick-next:before {
+  /* color: red; */
+  font-size: 1.5rem;
+}
+
+.slick-dots{
+  margin-bottom: 20px;
+}
+
+/* Altera a cor dos dots normais */
+.slick-dots li button:before {
+  /* Tamanho do ponto */
+  font-size: 12px;
+  /* Cor normal */
+  color: white;
+  /* Transparência */
+  opacity: 0.5;
+  /* Suaviza a transição */
+  transition: all 0.3s ease;
+}
+
+/* Altera a cor do dot ativo */
+.slick-dots li.slick-active button:before {
+  /* Cor quando ativo */
+  color: #ef464f;
+  opacity: 1;
+  /* Aumenta o tamanho do dot ativo */
+  font-size: 16px;
+}

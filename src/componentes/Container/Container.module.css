@@ -15,4 +15,6 @@
   /* padding-block: 1.5rem; */
   padding-bottom: 1.5rem;
 
+  /* não quero a barra de rolagem x */
+  overflow: hidden;
 }

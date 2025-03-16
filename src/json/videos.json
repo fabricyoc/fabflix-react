@@ -1,19 +1,38 @@
 [
   {
-    "id": "X43hs5-6Ilw",
-    "categoria": "Naruto"
+    "id": "_n2llmFIlwQ",
+    "categoria": "Naruto",
+    "titulo": "Naruto vs Pain"
+  },
+  {
+    "id": "WQWKYjTejx8",
+    "categoria": "Naruto",
+    "titulo": "Naruto chega ao campo de batalha como Shinobi"
+  },
+  {
+    "id": "KN2-LPmQrDM",
+    "categoria": "Naruto",
+    "titulo": "Gai abre o portão da morte"
   },
   {
     "id": "i6Z9m_0-DVo",
-    "categoria": "Naruto"
+    "categoria": "Naruto",
+    "titulo": "The Genius Behind Naruto"
   },
   {
     "id": "kj18GbbGeGI",
-    "categoria": "Naruto"
+    "categoria": "Naruto",
+    "titulo": "Naruto Abridged"
   },
   {
     "id": "VEDQ5rELtoU",
-    "categoria": "Naruto"
+    "categoria": "Naruto",
+    "titulo": "Naruto dance show"
+  },
+  {
+    "id": "V9jcViHHvrQ",
+    "categoria": "One Piece",
+    "titulo": "Pelo nosso capitão"
   },
   {
     "id": "JoiAKkcUSdQ",
@@ -58,5 +77,10 @@
   {
     "id": "sNwjd2bkljc",
     "categoria": "Dragon Ball"
+  },
+  {
+    "id": "GJtb9xiC0Pk",
+    "categoria": "Dragon Ball",
+    "titulo": "DBZ Abertura em Português"
   }
 ]

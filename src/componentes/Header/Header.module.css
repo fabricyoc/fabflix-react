@@ -13,6 +13,8 @@
   justify-content: space-around;
   /* alinhar verticalmente, precisa do display flex */
   align-items: center;
+  /* profundidade de visibilidade para os carrosseis não sobreescreverem */
+  z-index: 900;
 }
 
 .header span{

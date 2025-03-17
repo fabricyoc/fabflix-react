@@ -17,7 +17,7 @@
   z-index: 900;
 }
 
-.header span{
+.header .logo{
   color: #ef464f;
   text-shadow: 1px 1px 2px #ef464f;
   font-size: 2rem;
@@ -32,6 +32,14 @@
 }
 
 .header nav a:hover{
-  border-bottom: 2px solid white;
+  /* border-bottom: 2px solid white; */
+  text-decoration: underline;
+  text-underline-offset: 4px;
   text-shadow: 1px 1px 3px #ef464f;
+}
+
+.numberFav{
+  font-size: 12px;
+  position: absolute;
+  margin-left: -10px;
 }

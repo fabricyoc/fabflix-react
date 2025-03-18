@@ -5,6 +5,7 @@ import PageNotFound from "./pages/PageNotFound";
 import Search from "./pages/Search";
 import Favorites from "./pages/Favorites";
 import FavoritesProvider from "./contexts/Favorites";
+import Cadastre from "./pages/Cadastre";
 
 function AppRoutes() {
   return (
@@ -16,6 +17,7 @@ function AppRoutes() {
           <Route path="/watch/:id" element={<Watch />} />
           <Route path="/search" element={<Search />} />
           <Route path="/favorites" element={<Favorites />} />
+          <Route path="/cadastre" element={<Cadastre />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
 

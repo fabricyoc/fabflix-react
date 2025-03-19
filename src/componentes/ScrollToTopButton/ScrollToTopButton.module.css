@@ -1,0 +1,17 @@
+.scrollToTop {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 900;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 0;
+  border-radius: 50%;
+  background-color: #b71c1c90;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+  box-sizing: 0 0 10px #000;
+}

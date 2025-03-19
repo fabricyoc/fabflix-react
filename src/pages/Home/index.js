@@ -6,10 +6,12 @@ import Category, { categories, filterCategory } from "../../componentes/Category
 import Container from "../../componentes/Container";
 import Footer from "../../componentes/Footer";
 import Header from "../../componentes/Header";
+import ScrollToTopButton from "../../componentes/ScrollToTopButton";
 
 function App() {
   return (
     <>
+      <ScrollToTopButton />
       <Header />
       <Banner imagem="home" />
       <Container>

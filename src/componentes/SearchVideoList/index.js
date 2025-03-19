@@ -1,6 +1,7 @@
 import styles from './SearchVideoList.module.css';
 import VideoList from '../VideoList';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import Loader from '../Loader';
 
 function filterVideos(videos, searchText) {
   return videos.filter(
@@ -24,8 +25,14 @@ function filterVideos(videos, searchText) {
 
 function SearchVideoList({ videos }) {
 
-  const [searchText, setSearchText] = useState("One");
+  const [searchText, setSearchText] = useState("");
   const searchVideos = filterVideos(videos, searchText);
+
+  // implementação do componente Loader
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 500);
+  }, []);
 
   return (
     <section className={styles.container}>
@@ -37,10 +44,14 @@ function SearchVideoList({ videos }) {
         onChange={(e) => setSearchText(e.target.value)}
       />
 
-      <VideoList
-        videos={searchVideos}
-        emptyHeading={`Sem vídeos sobre "${searchText}"`}
-      />
+      {/* renderização condicional para o componente Loader */}
+      {
+        loading ? <Loader /> :
+          <VideoList
+            videos={searchVideos}
+            emptyHeading={`Sem vídeos sobre "${searchText}"`}
+          />
+      }
 
     </section>
   );
